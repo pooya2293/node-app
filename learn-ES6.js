@@ -14,8 +14,41 @@
 //}
 
 
-	greet();//hi
-	function greet(){
+// 	greet();//hi
+// 	function greet(){
+// 		console.log('hi');
+// 	}	
+// 	greet();//hi
+// 	{
+// 		greet();//hi
+// 	//	function greet(){
+// 	//		console.log('hello');
+// 	//	}
+// 		let x = 20;
+// 		{
+// 			function greet(){
+// 				console.log('hi there');
+// 			}
+// 		}
+		
+// 	}
+// 	greet();//hi there
+// 	//console.log(x);//x is not defined
+	
+// 	{
+// 		function greet(){
+// 			console.log('hi Hello');
+// 		}
+		
+// 	}
+
+// greet();//hi Hello
+
+
+//--------------------
+
+// greet();//can not acsess
+	let greet = function(){
 		console.log('hi');
 	}	
 	greet();//hi
@@ -26,20 +59,20 @@
 	//	}
 		let x = 20;
 		{
-			function greet(){
+			let greet = function(){
 				console.log('hi there');
 			}
 		}
+	greet();//hi
 		
 	}
-	greet();//hi there
 	//console.log(x);//x is not defined
 	
 	{
-		function greet(){
+		let greet = function(){
 			console.log('hi Hello');
 		}
 		
 	}
 
-greet();//hi Hello
+greet();//hi
