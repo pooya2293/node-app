@@ -4,4 +4,10 @@ console.log('it\'s me');
 
 //process variable: equivalent of document in browser
 //console.log(process);
-console.log(global);
+//console.log(global);
+{
+let x =2
+console.log(x);	
+}
+
+
