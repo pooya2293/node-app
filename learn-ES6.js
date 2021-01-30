@@ -20,10 +20,10 @@
 	}	
 	greet();//hi
 	{
-		greet();//hello
-		function greet(){
-			console.log('hello');
-		}
+		greet();//hi
+	//	function greet(){
+	//		console.log('hello');
+	//	}
 		let x = 20;
 		{
 			function greet(){
@@ -32,7 +32,7 @@
 		}
 		
 	}
-	greet();//hello
+	greet();//hi there
 	//console.log(x);//x is not defined
 
 
