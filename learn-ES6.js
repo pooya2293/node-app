@@ -34,5 +34,12 @@
 	}
 	greet();//hi there
 	//console.log(x);//x is not defined
+	
+	{
+		function greet(){
+			console.log('hi Hello');
+		}
+		
+	}
 
-
+greet();//hi Hello
