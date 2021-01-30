@@ -53,17 +53,17 @@
 	}	
 	greet();//hi
 	{
-		greet();//hi
-	//	function greet(){
-	//		console.log('hello');
-	//	}
+		// greet();//can not acsess
+		let greet = function(){
+			console.log('hello');
+		}
 		let x = 20;
 		{
 			let greet = function(){
 				console.log('hi there');
 			}
 		}
-	greet();//hi
+	greet();//hello
 		
 	}
 	//console.log(x);//x is not defined
